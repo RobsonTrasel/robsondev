@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint src --fix && npm format",
+    "format": "prettier --write",
+    "format:check": "prettier --check",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",
