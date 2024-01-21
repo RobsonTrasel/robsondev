@@ -1,47 +1,47 @@
 export type NavLinkType = {
-    name: string
-    url: string
-}
+  name: string;
+  url: string;
+};
 
 export type SocialLinkType = {
-    icon: string
-    url: string
-}
+  icon: string;
+  url: string;
+};
 
 export type CTAType = {
-    title: string
-    url: string
-    sameTab?: boolean
-}
+  title: string;
+  url: string;
+  sameTab?: boolean;
+};
 
 export type ExperienceType = {
-    role: string
-    company: string
-    companyUrl: string
-    started: Date | string
-    upto: Date | 'present' | string
-    tasks: string[]
-}
+  role: string;
+  company: string;
+  companyUrl: string;
+  started: Date | string;
+  upto: Date | "present" | string;
+  tasks: string[];
+};
 
 export type ProjectType = {
-    id: string
-    name: string
-    url: string
-    year: string
-    img: string
-    tags: string[]
-    repo: string
-}
+  id: string;
+  name: string;
+  url: string;
+  year: string;
+  img: string;
+  tags: string[];
+  repo: string;
+};
 
 export type StringKeyValueType = {
-    [link:string]: string
-}
+  [link: string]: string;
+};
 
-export type Direction = 'up' | 'right' | 'down' | 'left'
+export type Direction = "up" | "right" | "down" | "left";
 
 export type SoftwareSkillType = {
-    name: string
-    icon: string
-}
+  name: string;
+  icon: string;
+};
 
-export type BreakpointType = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl'
+export type BreakpointType = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
