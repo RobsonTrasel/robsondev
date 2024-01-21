@@ -6,11 +6,7 @@
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "simple-import-sort",
-    "unused-imports"
-  ],
+  "plugins": ["@typescript-eslint", "simple-import-sort", "unused-imports"],
   "rules": {
     "@next/next/no-img-element": "error",
     "@next/next/no-html-link-for-pages": "error",
